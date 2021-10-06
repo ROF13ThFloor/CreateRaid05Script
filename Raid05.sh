@@ -53,3 +53,4 @@ CHECK_STATUS=$(df -h  | grep /dev/md0)
      echo "did not mount successfully "
      exit 1 
    fi 
+
